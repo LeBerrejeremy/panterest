@@ -3,15 +3,19 @@
 {% block title %}New Pin{% endblock %}
 
 {% block body %}
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h1>Create Pin</h1>
 
-    <h1>Create Pin</h1>
+            {{ form_start(form) }}
 
-    {{ form_start(form) }}
+                {{ form_widget(form) }}
 
-        {{ form_widget(form) }}
+                <input class="btn btn-primary btn-block" type="submit" value="Create Pin">
 
-        <input type="submit" value="Create Pin">
-
-    {{ form_end(form) }}
+            {{ form_end(form) }}
+        </div>
+    </div>
+    
 
 {% endblock %}
