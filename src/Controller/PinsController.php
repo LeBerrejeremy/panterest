@@ -26,7 +26,7 @@ class PinsController extends AbstractController
     }
 
     /**
-     * @Route("/pins/{id<[0-9]>}", name="app_pins_show", methods="GET")
+     * @Route("/pins/{id}", name="app_pins_show", methods="GET", requirements={"id"="\d+"})
      */
     public function show(Pin $pin, $id): Response
     {
@@ -59,7 +59,7 @@ class PinsController extends AbstractController
     }
 
     /**
-     * @Route("/pins/{id<[0-9]>}/edit", name="app_pins_edit", methods={"GET|PUT"})
+     * @Route("/pins/{id}/edit", name="app_pins_edit", methods={"GET|PUT"}, requirements={"id"="\d+"})
      */
     public function edit(Pin $pin, $id, EntityManagerInterface $em, Request $request): Response
     {
@@ -83,7 +83,7 @@ class PinsController extends AbstractController
     }
 
     /**
-     * @Route("/pins/{id<[0-9]>}/delete", name="app_pins_delete", methods="DELETE")
+     * @Route("/pins/{id}/delete", name="app_pins_delete", methods="DELETE", requirements={"id"="\d+"})
      */
     public function delete(Request $request, Pin $pin, EntityManagerInterface $em): Response
     {
