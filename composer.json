@@ -47,9 +47,7 @@
         "twig/twig": "^2.12|^3.0",
         "symfony/web-profiler-bundle": "^5.1",
         "symfony/debug-bundle": "^5.1",
-        "vich/uploader-bundle": "^1.15"
-    },
-    "require-dev": {
+        "vich/uploader-bundle": "^1.15",
         "symfony/browser-kit": "^5.1",
         "symfony/css-selector": "^5.1",
         "symfony/maker-bundle": "^1.0",
@@ -57,6 +55,9 @@
         "symfony/stopwatch": "^5.1",
         "symfony/var-dumper": "^5.1",
         "theofidry/psysh-bundle": "^4.3"
+    },
+    "require-dev": {
+        
     },
     "config": {
         "optimize-autoloader": true,
