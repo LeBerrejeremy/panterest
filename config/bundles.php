@@ -12,7 +12,7 @@ return [
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
     Symfony\Bundle\DebugBundle\DebugBundle::class => ['all' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['all' => true],
-    Fidry\PsyshBundle\PsyshBundle::class => ['dev' => true, 'test' => true],
+    Fidry\PsyshBundle\PsyshBundle::class => ['all' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     Vich\UploaderBundle\VichUploaderBundle::class => ['all' => true],
     Liip\ImagineBundle\LiipImagineBundle::class => ['all' => true],
