@@ -84,6 +84,9 @@
     "egulias/email-validator": {
         "version": "2.1.24"
     },
+    "friendsofphp/proxy-manager-lts": {
+        "version": "v1.0.2"
+    },
     "imagine/imagine": {
         "version": "1.2.4"
     },
@@ -120,9 +123,6 @@
     },
     "nikic/php-parser": {
         "version": "v4.10.2"
-    },
-    "ocramius/proxy-manager": {
-        "version": "2.8.0"
     },
     "php": {
         "version": "7.4"
@@ -593,9 +593,6 @@
         "files": [
             "config/packages/vich_uploader.yaml"
         ]
-    },
-    "webimpress/safe-writer": {
-        "version": "2.1.0"
     },
     "webmozart/assert": {
         "version": "1.9.1"
