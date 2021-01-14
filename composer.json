@@ -46,7 +46,8 @@
         "twig/string-extra": "^3.1",
         "twig/twig": "^2.12|^3.0",
         "vich/uploader-bundle": "^1.15",
-        "symfony/web-profiler-bundle": "^5.1",
+    },
+    "require-dev": {
         "symfony/browser-kit": "^5.1",
         "symfony/css-selector": "^5.1",
         "symfony/phpunit-bridge": "^5.1",
@@ -54,7 +55,8 @@
         "symfony/var-dumper": "^5.1",
         "symfony/debug-bundle": "^5.1",
         "symfony/maker-bundle": "^1.0",
-        "theofidry/psysh-bundle": "^4.3"
+        "theofidry/psysh-bundle": "^4.3",
+        "symfony/web-profiler-bundle": "^5.1"
     },
     "config": {
         "optimize-autoloader": true,
