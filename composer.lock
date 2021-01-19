@@ -1469,16 +1469,16 @@
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/proxy-manager-lts.git",
-                "reference": "4a66e4e0d3279d3bb3722963b4294331fabe15bc"
+                "reference": "121af47c9aee9c03031bdeca3fac0540f59aa5c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/4a66e4e0d3279d3bb3722963b4294331fabe15bc",
-                "reference": "4a66e4e0d3279d3bb3722963b4294331fabe15bc",
+                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/121af47c9aee9c03031bdeca3fac0540f59aa5c3",
+                "reference": "121af47c9aee9c03031bdeca3fac0540f59aa5c3",
                 "shasum": ""
             },
             "require": {
@@ -1535,7 +1535,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/proxy-manager-lts/issues",
-                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.2"
+                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.3"
             },
             "funding": [
                 {
@@ -1547,7 +1547,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-04T11:21:26+00:00"
+            "time": "2021-01-14T21:52:44+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -1676,16 +1676,16 @@
         },
         {
             "name": "knplabs/knp-time-bundle",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpTimeBundle.git",
-                "reference": "2210e5e8f5ece34b8ec65fa5fe07aa48205f0ce8"
+                "reference": "96bc6523babd1a85988f8b4ecd2730c3aa064b8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpTimeBundle/zipball/2210e5e8f5ece34b8ec65fa5fe07aa48205f0ce8",
-                "reference": "2210e5e8f5ece34b8ec65fa5fe07aa48205f0ce8",
+                "url": "https://api.github.com/repos/KnpLabs/KnpTimeBundle/zipball/96bc6523babd1a85988f8b4ecd2730c3aa064b8c",
+                "reference": "96bc6523babd1a85988f8b4ecd2730c3aa064b8c",
                 "shasum": ""
             },
             "require": {
@@ -1740,9 +1740,9 @@
             ],
             "support": {
                 "issues": "https://github.com/KnpLabs/KnpTimeBundle/issues",
-                "source": "https://github.com/KnpLabs/KnpTimeBundle/tree/v1.14.0"
+                "source": "https://github.com/KnpLabs/KnpTimeBundle/tree/v1.15.0"
             },
-            "time": "2020-12-16T16:46:24+00:00"
+            "time": "2021-01-15T18:15:43+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -7456,31 +7456,31 @@
         },
         {
             "name": "symfony/webpack-encore-bundle",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/webpack-encore-bundle.git",
-                "reference": "c879bc50c69f6b4f2984b2bb5fe8190bbc5befdd"
+                "reference": "ea80d29e82da32942dc796c02b48e83b98665aaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/webpack-encore-bundle/zipball/c879bc50c69f6b4f2984b2bb5fe8190bbc5befdd",
-                "reference": "c879bc50c69f6b4f2984b2bb5fe8190bbc5befdd",
+                "url": "https://api.github.com/repos/symfony/webpack-encore-bundle/zipball/ea80d29e82da32942dc796c02b48e83b98665aaa",
+                "reference": "ea80d29e82da32942dc796c02b48e83b98665aaa",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.3",
-                "symfony/asset": "^3.4 || ^4.0 || ^5.0",
-                "symfony/config": "^3.4 || ^4.0 || ^5.0",
-                "symfony/dependency-injection": "^3.4 || ^4.0 || ^5.0",
-                "symfony/http-kernel": "^3.4 || ^4.0 || ^5.0",
+                "symfony/asset": "^4.4 || ^5.0",
+                "symfony/config": "^4.4 || ^5.0",
+                "symfony/dependency-injection": "^4.4 || ^5.0",
+                "symfony/http-kernel": "^4.4 || ^5.0",
                 "symfony/service-contracts": "^1.0 || ^2.0"
             },
             "require-dev": {
-                "symfony/framework-bundle": "^3.4 || ^4.0 || ^5.0",
-                "symfony/phpunit-bridge": "^4.3.5 || ^5.0",
-                "symfony/twig-bundle": "^3.4 || ^4.0 || ^5.0",
-                "symfony/web-link": "^3.4 || ^4.0 || ^5.0"
+                "symfony/framework-bundle": "^4.4 || ^5.0",
+                "symfony/phpunit-bridge": "^4.4 || ^5.0",
+                "symfony/twig-bundle": "^4.4 || ^5.0",
+                "symfony/web-link": "^4.4 || ^5.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -7507,7 +7507,7 @@
             "description": "Integration with your Symfony app & Webpack Encore!",
             "support": {
                 "issues": "https://github.com/symfony/webpack-encore-bundle/issues",
-                "source": "https://github.com/symfony/webpack-encore-bundle/tree/v1.8.0"
+                "source": "https://github.com/symfony/webpack-encore-bundle/tree/v1.9.0"
             },
             "funding": [
                 {
@@ -7523,7 +7523,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-28T17:07:25+00:00"
+            "time": "2021-01-15T16:57:00+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -7877,16 +7877,16 @@
         },
         {
             "name": "vich/uploader-bundle",
-            "version": "1.16.0",
+            "version": "1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dustin10/VichUploaderBundle.git",
-                "reference": "efc28aed393c1a2cf5ab9fadc9f3183b19cd25ba"
+                "reference": "781dd64bf278e924971a35d38ef6c690e35de6e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dustin10/VichUploaderBundle/zipball/efc28aed393c1a2cf5ab9fadc9f3183b19cd25ba",
-                "reference": "efc28aed393c1a2cf5ab9fadc9f3183b19cd25ba",
+                "url": "https://api.github.com/repos/dustin10/VichUploaderBundle/zipball/781dd64bf278e924971a35d38ef6c690e35de6e1",
+                "reference": "781dd64bf278e924971a35d38ef6c690e35de6e1",
                 "shasum": ""
             },
             "require": {
@@ -7911,7 +7911,6 @@
                 "doctrine/orm": "^2.7",
                 "ext-sqlite3": "*",
                 "knplabs/knp-gaufrette-bundle": "^0.7",
-                "kphoen/rusty": "dev-update-php-parser",
                 "league/flysystem-bundle": "^1.4",
                 "league/flysystem-memory": "^1.0",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.1",
@@ -7974,9 +7973,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dustin10/VichUploaderBundle/issues",
-                "source": "https://github.com/dustin10/VichUploaderBundle/tree/1.16.0"
+                "source": "https://github.com/dustin10/VichUploaderBundle/tree/1.16.1"
             },
-            "time": "2020-12-04T10:49:15+00:00"
+            "time": "2021-01-19T11:35:18+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -8128,16 +8127,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.10.5",
+            "version": "v0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "7c710551d4a2653afa259c544508dc18a9098956"
+                "reference": "6f990c19f91729de8b31e639d6e204ea59f19cf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/7c710551d4a2653afa259c544508dc18a9098956",
-                "reference": "7c710551d4a2653afa259c544508dc18a9098956",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/6f990c19f91729de8b31e639d6e204ea59f19cf3",
+                "reference": "6f990c19f91729de8b31e639d6e204ea59f19cf3",
                 "shasum": ""
             },
             "require": {
@@ -8166,7 +8165,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.10.x-dev"
+                    "dev-main": "0.10.x-dev"
                 }
             },
             "autoload": {
@@ -8198,9 +8197,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.10.5"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.10.6"
             },
-            "time": "2020-12-04T02:51:30+00:00"
+            "time": "2021-01-18T15:53:43+00:00"
         },
         {
             "name": "symfony/browser-kit",
@@ -8492,16 +8491,16 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "1.27.0",
+            "version": "v1.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "a47408fa6e39034a5abe324a46f4e6733266267a"
+                "reference": "6f4d27a68c92179c124f5331a27e32d197c9bd59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/a47408fa6e39034a5abe324a46f4e6733266267a",
-                "reference": "a47408fa6e39034a5abe324a46f4e6733266267a",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/6f4d27a68c92179c124f5331a27e32d197c9bd59",
+                "reference": "6f4d27a68c92179c124f5331a27e32d197c9bd59",
                 "shasum": ""
             },
             "require": {
@@ -8560,7 +8559,7 @@
             ],
             "support": {
                 "issues": "https://github.com/symfony/maker-bundle/issues",
-                "source": "https://github.com/symfony/maker-bundle/tree/1.27.0"
+                "source": "https://github.com/symfony/maker-bundle/tree/v1.28.0"
             },
             "funding": [
                 {
@@ -8576,7 +8575,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-08T18:14:10+00:00"
+            "time": "2021-01-15T18:19:20+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
