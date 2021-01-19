@@ -1,3 +1,4 @@
+
 vich_uploader:
     db_driver: orm
 
@@ -5,4 +6,4 @@ vich_uploader:
         pin_image:
             uri_prefix: /uploads/pins
             upload_destination: '%kernel.project_dir%/public/uploads/pins'
-            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+            #namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
